@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Testing & Coverage
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local Caching & Temp
+.cache/
+.gstack/
+.agents/
+tmp/
+
+# Build & Packaging
+dist/
+build/
+*.egg-info/
+
+# Generated Reports (keep example reports in examples/)
+reports/*.html
+reports/*.md
+reports/*.json
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
