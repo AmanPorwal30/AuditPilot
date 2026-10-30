@@ -56,7 +56,7 @@ def _get_rating_band(score: float, is_assessable: bool = True) -> str:
         return "Average"
     if score >= 40.0:
         return "Needs Improvement"
-    if score >= 20.0:
+    if score >= 0.0:
         return "Poor"
     return "Critical"
 
