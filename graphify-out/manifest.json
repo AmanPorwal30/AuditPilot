@@ -1,0 +1,236 @@
+{
+  "app/streamlit_app.py": {
+    "mtime": 1793391053.0,
+    "seen": 1793393024.9969609,
+    "ast_hash": "3da282239dede657a22c9ebfb93e7d0c",
+    "semantic_hash": "3da282239dede657a22c9ebfb93e7d0c"
+  },
+  "pyproject.toml": {
+    "mtime": 1793365422.0,
+    "seen": 1793393024.9969685,
+    "ast_hash": "5aeb548b1ca22968d7eceeca073b2867",
+    "semantic_hash": "5aeb548b1ca22968d7eceeca073b2867"
+  },
+  "src/auditpilot/__init__.py": {
+    "mtime": 1793365397.0,
+    "seen": 1793393024.9969718,
+    "ast_hash": "c035481d6a15e1b66c35f5c79f8d52f0",
+    "semantic_hash": "c035481d6a15e1b66c35f5c79f8d52f0"
+  },
+  "src/auditpilot/checks/__init__.py": {
+    "mtime": 1793365397.0,
+    "seen": 1793393024.996974,
+    "ast_hash": "bee4d97b4542bddcd98e4bd2b1435950",
+    "semantic_hash": "bee4d97b4542bddcd98e4bd2b1435950"
+  },
+  "src/auditpilot/checks/content.py": {
+    "mtime": 1793375996.0,
+    "seen": 1793393024.9969764,
+    "ast_hash": "db5a4655984e3808aef3640b65e920e2",
+    "semantic_hash": "db5a4655984e3808aef3640b65e920e2"
+  },
+  "src/auditpilot/checks/onpage.py": {
+    "mtime": 1793375997.0,
+    "seen": 1793393024.9969783,
+    "ast_hash": "71764e08e268ea05624061d59d056161",
+    "semantic_hash": "71764e08e268ea05624061d59d056161"
+  },
+  "src/auditpilot/checks/performance.py": {
+    "mtime": 1793375997.0,
+    "seen": 1793393024.9969802,
+    "ast_hash": "040369f700904809707b2bfa40d672fb",
+    "semantic_hash": "040369f700904809707b2bfa40d672fb"
+  },
+  "src/auditpilot/checks/registry.py": {
+    "mtime": 1793375898.0,
+    "seen": 1793393024.9969819,
+    "ast_hash": "74aa79aa6769896b0e71dd50c6fe283c",
+    "semantic_hash": "74aa79aa6769896b0e71dd50c6fe283c"
+  },
+  "src/auditpilot/checks/technical.py": {
+    "mtime": 1793376004.0,
+    "seen": 1793393024.9969833,
+    "ast_hash": "b6b888d725d92e9d919c29306b124037",
+    "semantic_hash": "b6b888d725d92e9d919c29306b124037"
+  },
+  "src/auditpilot/cli.py": {
+    "mtime": 1793391053.0,
+    "seen": 1793393024.9969852,
+    "ast_hash": "549e90fe28beefb1acebf80adf30ee4c",
+    "semantic_hash": "549e90fe28beefb1acebf80adf30ee4c"
+  },
+  "src/auditpilot/config.py": {
+    "mtime": 1793393101.542323,
+    "seen": 1793393310.1393747,
+    "ast_hash": "fc2f55f304217fe59deb571a8cdcc37f",
+    "semantic_hash": ""
+  },
+  "src/auditpilot/crawler.py": {
+    "mtime": 1793389978.0,
+    "seen": 1793393024.996989,
+    "ast_hash": "042a43218b944b1d6d52a0169c299068",
+    "semantic_hash": "042a43218b944b1d6d52a0169c299068"
+  },
+  "src/auditpilot/llm/__init__.py": {
+    "mtime": 1793375415.0,
+    "seen": 1793393024.9969907,
+    "ast_hash": "54325b141b8084f067fc34dc30d13e52",
+    "semantic_hash": "54325b141b8084f067fc34dc30d13e52"
+  },
+  "src/auditpilot/llm/analyzer.py": {
+    "mtime": 1793375441.0,
+    "seen": 1793393024.9969923,
+    "ast_hash": "f222f6d6a27ec21195472714e68af1fd",
+    "semantic_hash": "f222f6d6a27ec21195472714e68af1fd"
+  },
+  "src/auditpilot/llm/base.py": {
+    "mtime": 1793365397.0,
+    "seen": 1793393024.9969938,
+    "ast_hash": "2087ba84f1fe66c99a42aad2347d37f2",
+    "semantic_hash": "2087ba84f1fe66c99a42aad2347d37f2"
+  },
+  "src/auditpilot/llm/gemini_client.py": {
+    "mtime": 1793375374.0,
+    "seen": 1793393024.9969957,
+    "ast_hash": "035031cdec62c1ec1ac8ac6e380832df",
+    "semantic_hash": "035031cdec62c1ec1ac8ac6e380832df"
+  },
+  "src/auditpilot/llm/groq_client.py": {
+    "mtime": 1793375364.0,
+    "seen": 1793393024.9969974,
+    "ast_hash": "5c18f2d8b43941375e6f6126787fa177",
+    "semantic_hash": "5c18f2d8b43941375e6f6126787fa177"
+  },
+  "src/auditpilot/llm/prompts.py": {
+    "mtime": 1793375441.0,
+    "seen": 1793393024.9969995,
+    "ast_hash": "974639c3fb0d1ab3b898ceaa9c3e2019",
+    "semantic_hash": "974639c3fb0d1ab3b898ceaa9c3e2019"
+  },
+  "src/auditpilot/models.py": {
+    "mtime": 1793390684.0,
+    "seen": 1793393024.997001,
+    "ast_hash": "be4f2b04e0dccb953030c2c7c0b897d2",
+    "semantic_hash": "be4f2b04e0dccb953030c2c7c0b897d2"
+  },
+  "src/auditpilot/parsers.py": {
+    "mtime": 1793390697.0,
+    "seen": 1793393024.9970028,
+    "ast_hash": "4a463ff7ad4303dd0423a5fae5144c54",
+    "semantic_hash": "4a463ff7ad4303dd0423a5fae5144c54"
+  },
+  "src/auditpilot/report/__init__.py": {
+    "mtime": 1793365397.0,
+    "seen": 1793393024.9970043,
+    "ast_hash": "2a74791ab86d171cd190252c093596af",
+    "semantic_hash": "2a74791ab86d171cd190252c093596af"
+  },
+  "src/auditpilot/report/builder.py": {
+    "mtime": 1793365397.0,
+    "seen": 1793393024.997006,
+    "ast_hash": "0629980ba36c62655d6d459cd7653d8d",
+    "semantic_hash": "0629980ba36c62655d6d459cd7653d8d"
+  },
+  "src/auditpilot/scoring.py": {
+    "mtime": 1793393174.6512606,
+    "seen": 1793393310.1394067,
+    "ast_hash": "6dba000688e754787fd8c24e16db26d4",
+    "semantic_hash": ""
+  },
+  "src/auditpilot/validators.py": {
+    "mtime": 1793370566.0,
+    "seen": 1793393024.99701,
+    "ast_hash": "5331b75c3123422603e33b06103d1719",
+    "semantic_hash": "5331b75c3123422603e33b06103d1719"
+  },
+  "tests/__init__.py": {
+    "mtime": 1793365397.0,
+    "seen": 1793393024.9970117,
+    "ast_hash": "321352f8ff8ed29a3ed6408f50d43200",
+    "semantic_hash": "321352f8ff8ed29a3ed6408f50d43200"
+  },
+  "tests/test_analyzer.py": {
+    "mtime": 1793390759.0,
+    "seen": 1793393024.9970136,
+    "ast_hash": "a6569333f94118ea73466796fb58c61a",
+    "semantic_hash": "a6569333f94118ea73466796fb58c61a"
+  },
+  "tests/test_checks.py": {
+    "mtime": 1793375996.0,
+    "seen": 1793393024.997015,
+    "ast_hash": "d0dc2cd1797b77a0aff7e17c59acabbf",
+    "semantic_hash": "d0dc2cd1797b77a0aff7e17c59acabbf"
+  },
+  "tests/test_crawler.py": {
+    "mtime": 1793374495.0,
+    "seen": 1793393024.997017,
+    "ast_hash": "a22658fadad7d8bfb5bfc90666d9be14",
+    "semantic_hash": "a22658fadad7d8bfb5bfc90666d9be14"
+  },
+  "tests/test_parsers.py": {
+    "mtime": 1793376366.0,
+    "seen": 1793393024.9970186,
+    "ast_hash": "f534c10a9a8a5306a2e3199a986fc234",
+    "semantic_hash": "f534c10a9a8a5306a2e3199a986fc234"
+  },
+  "tests/test_scoring.py": {
+    "mtime": 1793390790.0,
+    "seen": 1793393024.9970207,
+    "ast_hash": "870b6daa7114194b82cecef3502dd8ed",
+    "semantic_hash": "870b6daa7114194b82cecef3502dd8ed"
+  },
+  "tests/test_validators.py": {
+    "mtime": 1793370566.0,
+    "seen": 1793393024.9970222,
+    "ast_hash": "e1cb51a92d75b7a17e1a77219e50e148",
+    "semantic_hash": "e1cb51a92d75b7a17e1a77219e50e148"
+  },
+  "README.md": {
+    "mtime": 1793365253.0,
+    "seen": 1793393310.1394281,
+    "ast_hash": "ad470abb1c54303f1520036c5eb0b069",
+    "semantic_hash": ""
+  },
+  "SEO Audit Agent Build Specification for Claude Code.md": {
+    "mtime": 1793365397.0,
+    "seen": 1793393310.1394308,
+    "ast_hash": "bf45ac6c9375b07421c878e7f3980c2f",
+    "semantic_hash": ""
+  },
+  "SPEC.md": {
+    "mtime": 1793365397.0,
+    "seen": 1793393310.1394327,
+    "ast_hash": "bf45ac6c9375b07421c878e7f3980c2f",
+    "semantic_hash": ""
+  },
+  "TODO.md": {
+    "mtime": 1793369092.0,
+    "seen": 1793393310.1394346,
+    "ast_hash": "cb160326e164c85de018e42c4e72af1f",
+    "semantic_hash": ""
+  },
+  "agents.md": {
+    "mtime": 1793305171.0,
+    "seen": 1793393310.1394362,
+    "ast_hash": "8d92a4ea33cc15740e36c45df3666691",
+    "semantic_hash": ""
+  },
+  "gemini.md": {
+    "mtime": 1793364253.0,
+    "seen": 1793393310.1394382,
+    "ast_hash": "8975ec937fc5ad8e71470c44c283734b",
+    "semantic_hash": ""
+  },
+  "website_audit_scoring_engine_coding_agent.md": {
+    "mtime": 1793389466.0,
+    "seen": 1793393310.1394396,
+    "ast_hash": "e51795954a617afa8e8d7c93b73cbe71",
+    "semantic_hash": ""
+  },
+  "Gmail - Technical Assessment Assigned_ AI_ML Engineer Intern - Task \u2014 Identify an AI Opportunity for Cynbit _ Cynbit Talent Hub.pdf": {
+    "mtime": 1793291656.0,
+    "seen": 1793393310.1394432,
+    "ast_hash": "7cfde8c4dd439de0fcda167dde724c86",
+    "semantic_hash": ""
+  }
+}
