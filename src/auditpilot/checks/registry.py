@@ -5,7 +5,7 @@ Manages registration and execution of deterministic SEO checks.
 
 from auditpilot.checks.content import run_content_checks
 from auditpilot.checks.onpage import run_onpage_checks
-from auditpilot.checks.performance import run_perf_checks
+from auditpilot.checks.performance import run_performance_checks
 from auditpilot.checks.technical import run_technical_checks
 from auditpilot.models import Finding, PageData
 
@@ -33,7 +33,7 @@ class CheckRegistry:
         findings.extend(run_technical_checks(pages))
         findings.extend(run_onpage_checks(pages, target_keywords=target_keywords))
         findings.extend(run_content_checks(pages))
-        findings.extend(run_perf_checks(pages, pagespeed_api_key=pagespeed_api_key))
+        findings.extend(run_performance_checks(pages, pagespeed_api_key=pagespeed_api_key))
         return findings
 
 
