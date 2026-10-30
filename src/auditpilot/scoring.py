@@ -56,7 +56,7 @@ def _get_rating_band(score: float, is_assessable: bool = True) -> str:
         return "Average"
     if score >= 40.0:
         return "Needs Improvement"
-    if score >= 0.0:
+    if score >= 20.0:
         return "Poor"
     return "Critical"
 
@@ -65,7 +65,7 @@ def _get_letter_grade(score: float, is_assessable: bool = True) -> str:
     """Map numeric score to traditional letter grade."""
     if not is_assessable:
         return "N/A"
-    if score > 90.0:
+    if score >= 90.0:
         return "A"
     if score >= 80.0:
         return "B"
