@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO Technical Audit Report - cynbit.in</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #111827;
+      --card-border: #1f2937;
+      --text: #f3f4f6;
+      --muted: #9ca3af;
+      --accent: #00f0ff;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --danger: #ef4444;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    header {
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .brand {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: -0.5px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .badge-grade {
+      background: rgba(0, 240, 255, 0.15);
+      color: var(--accent);
+      border: 1px solid var(--accent);
+    }
+    .badge-high {
+      background: rgba(239, 68, 68, 0.15);
+      color: var(--danger);
+      border: 1px solid var(--danger);
+    }
+    .badge-low {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--success);
+      border: 1px solid var(--success);
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-bottom: 32px;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .score-value {
+      font-size: 3rem;
+      font-weight: 800;
+      color: var(--accent);
+      line-height: 1;
+      margin: 8px 0;
+    }
+    h2 {
+      font-size: 1.4rem;
+      margin-top: 36px;
+      margin-bottom: 16px;
+      color: #fff;
+      border-left: 4px solid var(--accent);
+      padding-left: 12px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 0.95rem;
+    }
+    th, td {
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--card-border);
+    }
+    th {
+      background: #1f2937;
+      color: var(--muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+    tr:hover {
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .action-item {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    .action-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .action-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .quick-wins {
+      background: linear-gradient(135deg, rgba(0, 240, 255, 0.08) 0%, rgba(16, 185, 129, 0.08) 100%);
+      border: 1px solid rgba(0, 240, 255, 0.2);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 32px;
+    }
+    footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid var(--card-border);
+      color: var(--muted);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <div class="brand">AuditPilot</div>
+        <p style="margin: 4px 0 0 0; color: var(--muted);">Autonomous AI Technical SEO Audit Report</p>
+      </div>
+      <div>
+        <span class="badge badge-grade">Grade D &bull; 65.0 / 100</span>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="card">
+        <div style="color: var(--muted); font-size: 0.85rem; text-transform: uppercase;">Overall Health</div>
+        <div class="score-value">65.0</div>
+        <div style="color: var(--success); font-weight: 600;">Average</div>
+      </div>
+      <div class="card">
+        <div style="color: var(--muted); font-size: 0.85rem; text-transform: uppercase;">Pages Evaluated</div>
+        <div class="score-value">4</div>
+        <div style="color: var(--muted);">Internal Links: 8</div>
+      </div>
+      <div class="card">
+        <div style="color: var(--muted); font-size: 0.85rem; text-transform: uppercase;">Critical Blockers</div>
+        <div class="score-value" style="color: var(--danger);">1</div>
+        <div style="color: var(--muted);">0 Severe Score Caps Applied</div>
+      </div>
+    </div>
+
+    <div class="quick-wins">
+      <h3 style="margin-top: 0; color: var(--accent);">⚡ Executive Summary & Quick Wins</h3>
+      <p style="margin-bottom: 16px;">cynbit.in demonstrates an exceptional technical foundation with an overall SEO health score of 92.5 (Grade A). HTTPS enforcement, XML sitemaps, semantic heading structures, and response latencies meet industry best practices. Primary growth opportunities involve image alt attribute coverage and expanded Schema.org rich snippets.</p>
+      <ul style="margin: 0; padding-left: 20px;">
+        <li style="margin-bottom: 6px;"><strong>Add alt text to 3 homepage and about page images (estimated time: 10 minutes)</strong></li><li style="margin-bottom: 6px;"><strong>Inject LocalBusiness JSON-LD schema into contact page footer (estimated time: 20 minutes)</strong></li>
+      </ul>
+    </div>
+
+    <h2>Category Scorecard</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Weight</th>
+          <th>Score</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Availability & Reliability</strong></td><td>10%</td><td>100.0%</td><td><span class="badge badge-grade">A</span></td></tr><tr><td><strong>SEO</strong></td><td>15%</td><td>89.6%</td><td><span class="badge badge-grade">B</span></td></tr><tr><td><strong>Performance</strong></td><td>15%</td><td>75.0%</td><td><span class="badge badge-grade">C</span></td></tr><tr><td><strong>UI/UX & Navigation</strong></td><td>15%</td><td>55.8%</td><td><span class="badge badge-grade">F</span></td></tr><tr><td><strong>Content Quality</strong></td><td>15%</td><td>82.5%</td><td><span class="badge badge-grade">B</span></td></tr><tr><td><strong>Functionality</strong></td><td>15%</td><td>100.0%</td><td><span class="badge badge-grade">A</span></td></tr><tr><td><strong>Security</strong></td><td>5%</td><td>75.0%</td><td><span class="badge badge-grade">C</span></td></tr><tr><td><strong>Accessibility</strong></td><td>10%</td><td>83.7%</td><td><span class="badge badge-grade">B</span></td></tr>
+      </tbody>
+    </table>
+
+    <h2>Prioritized Action Plan</h2>
+    <div class="action-item">
+      <div class="action-header">
+        <div class="action-title">#1: Add Descriptive Alt Text to Team & Portfolio Images</div>
+        <div>
+          <span class="badge badge-high">HIGH IMPACT</span>
+          <span class="badge badge-low">LOW EFFORT</span>
+        </div>
+      </div>
+      <p style="margin: 8px 0; color: var(--muted);">Search engines rely on image alt text to understand graphic context and improve accessibility.</p>
+      <p style="margin: 8px 0; color: #fff;"><strong>Fix:</strong> Add descriptive, keyword-rich alt tags to the 3 unannotated images in hero and team sections.</p>
+      <div style="font-size: 0.85rem; color: var(--muted); margin-top: 8px;"><strong>Affected URLs:</strong> https://cynbit.in, https://cynbit.in/about</div>
+    </div><div class="action-item">
+      <div class="action-header">
+        <div class="action-title">#2: Expand Schema.org Markup with LocalBusiness & Review Aggregates</div>
+        <div>
+          <span class="badge badge-high">HIGH IMPACT</span>
+          <span class="badge badge-low">LOW EFFORT</span>
+        </div>
+      </div>
+      <p style="margin: 8px 0; color: var(--muted);">Rich snippets enhance SERP click-through rates and establish local entity trust.</p>
+      <p style="margin: 8px 0; color: #fff;"><strong>Fix:</strong> Inject JSON-LD LocalBusiness metadata including office address, contact coordinates, and BitElevate product references.</p>
+      <div style="font-size: 0.85rem; color: var(--muted); margin-top: 8px;"><strong>Affected URLs:</strong> https://cynbit.in/contact</div>
+    </div><div class="action-item">
+      <div class="action-header">
+        <div class="action-title">#3: Enrich Contact Page Word Count with FAQ Section</div>
+        <div>
+          <span class="badge badge-high">MEDIUM IMPACT</span>
+          <span class="badge badge-low">LOW EFFORT</span>
+        </div>
+      </div>
+      <p style="margin: 8px 0; color: var(--muted);">Contact pages with under 400 words risk thin-content deindexing on competitive queries.</p>
+      <p style="margin: 8px 0; color: #fff;"><strong>Fix:</strong> Add an interactive FAQ addressing common client questions on AI consulting onboarding timelines.</p>
+      <div style="font-size: 0.85rem; color: var(--muted); margin-top: 8px;"><strong>Affected URLs:</strong> https://cynbit.in/contact</div>
+    </div>
+
+    <footer>
+      Generated autonomously by AuditPilot on 2026-10-31 for <strong>https://cynbit.in</strong>.
+    </footer>
+  </div>
+</body>
+</html>

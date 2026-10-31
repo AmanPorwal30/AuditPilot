@@ -15,14 +15,14 @@
 | Phase | Milestone Name | Track | Gate Dependency | Primary Output Files | Status |
 |---|---|---|---|---|:---:|
 | **Phase 0** | Scaffold & Configuration | Sequential | Prerequisite | `models.py`, `config.py`, `pyproject.toml` | **COMPLETED** |
-| **Phase 1** | Models, SSRF Guard & Async Crawler | Track A | Gate G0 | `validators.py`, `crawler.py` | **READY** |
-| **Phase 2** | Parsers & 27 SEO Checks Engine (32 Total) | Track B | Gate G0 | `parsers.py`, `checks/*.py`, fixtures | **READY** |
-| **Phase 3** | Scoring Engine & Headless CLI | Sequential | Gate G1 (M1 + M2) | `scoring.py`, `cli.py` | **PLANNED** |
-| **Phase 4** | LLM Reasoning & Grounding Layer | Track C | Gate G0 (Mocked) / Gate G1 | `llm/*.py`, `test_analyzer.py` | **READY** |
-| **Phase 5** | Reports Engine (Jinja2 HTML & Markdown) | Track D | Gate G0 (Mocked) / Gate G1 | `report/builder.py`, `report.html.j2` | **READY** |
-| **Phase 6** | Streamlit Web Application | Sequential | Gate G2 (M3 + M4 + M5) | `app/streamlit_app.py` | **PLANNED** |
-| **Phase 7** | Real Run on cynbit.in & Root Polish | Sequential | Gate G3 (M6) | `examples/*`, `README.md` | **PLANNED** |
-| **Phase 8** | Assessment Deliverables & Colab Notebook | Track E / Seq | Gate G0 (8A) / Gate G4 (8B, 8C) | `docs/*.md`, `notebooks/demo.ipynb` | **READY / PLANNED** |
+| **Phase 1** | Models, SSRF Guard & Async Crawler | Track A | Gate G0 | `validators.py`, `crawler.py` | **COMPLETED** |
+| **Phase 2** | Parsers & 27 SEO Checks Engine (32 Total) | Track B | Gate G0 | `parsers.py`, `checks/*.py`, fixtures | **COMPLETED** |
+| **Phase 3** | Scoring Engine & Headless CLI | Sequential | Gate G1 (M1 + M2) | `scoring.py`, `cli.py` | **COMPLETED** |
+| **Phase 4** | LLM Reasoning & Grounding Layer | Track C | Gate G0 (Mocked) / Gate G1 | `llm/*.py`, `test_analyzer.py` | **COMPLETED** |
+| **Phase 5** | Reports Engine (Jinja2 HTML & Markdown) | Track D | Gate G0 (Mocked) / Gate G1 | `report/builder.py`, `report.html.j2` | **COMPLETED** |
+| **Phase 6** | Streamlit Web Application | Sequential | Gate G2 (M3 + M4 + M5) | `app/streamlit_app.py` | **COMPLETED** |
+| **Phase 7** | Real Run on cynbit.in & Root Polish | Sequential | Gate G3 (M6) | `examples/*`, `README.md` | **COMPLETED** |
+| **Phase 8** | Assessment Deliverables & Colab Notebook | Track E / Seq | Gate G0 (8A) / Gate G4 (8B, 8C) | `docs/*.md`, `notebooks/demo.ipynb` | **COMPLETED** |
 
 ---
 

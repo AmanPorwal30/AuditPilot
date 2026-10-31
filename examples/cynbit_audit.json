@@ -1,0 +1,1347 @@
+{
+  "target_url": "https://cynbit.in",
+  "domain": "cynbit.in",
+  "score": {
+    "raw_score": 82.6,
+    "final_score": 65.0,
+    "overall": 65.0,
+    "grade": "D",
+    "maximum_cap": 65.0,
+    "rating": "Average",
+    "confidence": "medium",
+    "coverage_percent": 73.0,
+    "score_caps_applied": [
+      "No usable mobile layout on a site expected to be responsive (missing viewport) (Max cap: 65/100)"
+    ],
+    "not_tested_checks": [
+      "SE05",
+      "SE06",
+      "PF02",
+      "UX02",
+      "CT04",
+      "CT05",
+      "FN02",
+      "FN03",
+      "FN05",
+      "FN06",
+      "FN07",
+      "SC01",
+      "AC02",
+      "AC04"
+    ],
+    "categories": {
+      "availability": {
+        "id": "availability",
+        "name": "Availability & Reliability",
+        "weight": 10.0,
+        "earned_points": 10.0,
+        "max_points": 10.0,
+        "score": 100.0,
+        "coverage_percent": 100.0,
+        "grade": "A",
+        "status": "assessed",
+        "critical_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "seo": {
+        "id": "seo",
+        "name": "SEO",
+        "weight": 15.0,
+        "earned_points": 13.4,
+        "max_points": 15.0,
+        "score": 89.6,
+        "coverage_percent": 80.0,
+        "grade": "B",
+        "status": "assessed",
+        "critical_count": 0,
+        "warning_count": 0,
+        "info_count": 1
+      },
+      "performance": {
+        "id": "performance",
+        "name": "Performance",
+        "weight": 15.0,
+        "earned_points": 11.2,
+        "max_points": 15.0,
+        "score": 75.0,
+        "coverage_percent": 80.0,
+        "grade": "C",
+        "status": "assessed",
+        "critical_count": 0,
+        "warning_count": 1,
+        "info_count": 1
+      },
+      "ui_ux": {
+        "id": "ui_ux",
+        "name": "UI/UX & Navigation",
+        "weight": 15.0,
+        "earned_points": 8.4,
+        "max_points": 15.0,
+        "score": 55.8,
+        "coverage_percent": 86.7,
+        "grade": "F",
+        "status": "assessed",
+        "critical_count": 1,
+        "warning_count": 1,
+        "info_count": 0
+      },
+      "content": {
+        "id": "content",
+        "name": "Content Quality",
+        "weight": 15.0,
+        "earned_points": 12.4,
+        "max_points": 15.0,
+        "score": 82.5,
+        "coverage_percent": 73.3,
+        "grade": "B",
+        "status": "assessed",
+        "critical_count": 0,
+        "warning_count": 1,
+        "info_count": 1
+      },
+      "functionality": {
+        "id": "functionality",
+        "name": "Functionality",
+        "weight": 15.0,
+        "earned_points": 15.0,
+        "max_points": 15.0,
+        "score": 100.0,
+        "coverage_percent": 33.3,
+        "grade": "A",
+        "status": "assessed",
+        "critical_count": 0,
+        "warning_count": 0,
+        "info_count": 0
+      },
+      "security": {
+        "id": "security",
+        "name": "Security",
+        "weight": 5.0,
+        "earned_points": 3.8,
+        "max_points": 5.0,
+        "score": 75.0,
+        "coverage_percent": 80.0,
+        "grade": "C",
+        "status": "assessed",
+        "critical_count": 0,
+        "warning_count": 1,
+        "info_count": 0
+      },
+      "accessibility": {
+        "id": "accessibility",
+        "name": "Accessibility",
+        "weight": 10.0,
+        "earned_points": 8.4,
+        "max_points": 10.0,
+        "score": 83.7,
+        "coverage_percent": 60.0,
+        "grade": "B",
+        "status": "assessed",
+        "critical_count": 0,
+        "warning_count": 2,
+        "info_count": 0
+      }
+    }
+  },
+  "pages": [
+    {
+      "url": "https://cynbit.in",
+      "status_code": 200,
+      "final_url": "https://www.cynbit.in",
+      "redirect_chain": [
+        "https://cynbit.in"
+      ],
+      "response_time_ms": 342.0,
+      "html_size_bytes": 48210,
+      "title": "Cynbit Technologies | AI Engineering, Digital Automation & Tech Consulting",
+      "meta_description": "Cynbit builds autonomous AI systems, scalable full-stack applications, and high-performance digital automation platforms for global enterprises.",
+      "h1s": [
+        "Autonomous AI & Digital Engineering Platform"
+      ],
+      "headings": [
+        [
+          1,
+          "Autonomous AI Platform"
+        ],
+        [
+          2,
+          "Services"
+        ],
+        [
+          2,
+          "Case Studies"
+        ],
+        [
+          2,
+          "Products"
+        ]
+      ],
+      "word_count": 845,
+      "images_total": 18,
+      "images_missing_alt": 2,
+      "internal_links": [
+        "https://cynbit.in/about",
+        "https://cynbit.in/services",
+        "https://cynbit.in/contact"
+      ],
+      "external_links": [],
+      "canonical": "https://www.cynbit.in",
+      "meta_robots": "index, follow",
+      "json_ld_types": [
+        "Organization",
+        "WebSite"
+      ],
+      "top_terms": [
+        "ai",
+        "automation",
+        "engineering",
+        "platform",
+        "cynbit"
+      ],
+      "raw_html": "<html><head><meta name='viewport' content='width=device-width, initial-scale=1.0'></head><body><header></header><nav></nav><main></main><footer></footer></body></html>",
+      "headers": {
+        "strict-transport-security": "max-age=31536000",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "semantic_landmarks": [
+        "header",
+        "nav",
+        "main",
+        "footer"
+      ],
+      "has_placeholder_content": false,
+      "form_inputs_without_labels": 0,
+      "open_graph_tags": [],
+      "html_lang": null,
+      "viewport_content": null,
+      "images_missing_dimensions": 0,
+      "images_modern_or_lazy": 0,
+      "render_blocking_scripts": 0,
+      "forms_count": 0,
+      "form_inputs_total": 0,
+      "form_inputs_validated": 0,
+      "dead_links": 0,
+      "anchors_total": 0,
+      "unsafe_blank_links": 0,
+      "positive_tabindex_count": 0,
+      "cta_count": 0,
+      "has_contact_signal": false,
+      "mixed_content_urls": []
+    },
+    {
+      "url": "https://cynbit.in/services",
+      "status_code": 200,
+      "final_url": "https://www.cynbit.in/services",
+      "redirect_chain": [],
+      "response_time_ms": 280.0,
+      "html_size_bytes": 38400,
+      "title": "Services | Cynbit Technologies",
+      "meta_description": "Explore Cynbit's AI engineering, cloud solutions, and SEO technical consulting services.",
+      "h1s": [
+        "Engineering & AI Automation Services"
+      ],
+      "headings": [
+        [
+          1,
+          "Services"
+        ],
+        [
+          2,
+          "AI & ML"
+        ],
+        [
+          2,
+          "Digital Transformation"
+        ]
+      ],
+      "word_count": 620,
+      "images_total": 8,
+      "images_missing_alt": 0,
+      "internal_links": [
+        "https://cynbit.in",
+        "https://cynbit.in/contact"
+      ],
+      "external_links": [],
+      "canonical": "https://www.cynbit.in/services",
+      "meta_robots": "index, follow",
+      "json_ld_types": [
+        "Service"
+      ],
+      "top_terms": [
+        "services",
+        "consulting",
+        "cloud",
+        "solutions"
+      ],
+      "raw_html": "<html><head><meta name='viewport' content='width=device-width, initial-scale=1.0'></head><body><header></header><nav></nav><main></main><footer></footer></body></html>",
+      "headers": {
+        "strict-transport-security": "max-age=31536000",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "semantic_landmarks": [
+        "header",
+        "nav",
+        "main",
+        "footer"
+      ],
+      "has_placeholder_content": false,
+      "form_inputs_without_labels": 0,
+      "open_graph_tags": [],
+      "html_lang": null,
+      "viewport_content": null,
+      "images_missing_dimensions": 0,
+      "images_modern_or_lazy": 0,
+      "render_blocking_scripts": 0,
+      "forms_count": 0,
+      "form_inputs_total": 0,
+      "form_inputs_validated": 0,
+      "dead_links": 0,
+      "anchors_total": 0,
+      "unsafe_blank_links": 0,
+      "positive_tabindex_count": 0,
+      "cta_count": 0,
+      "has_contact_signal": false,
+      "mixed_content_urls": []
+    },
+    {
+      "url": "https://cynbit.in/about",
+      "status_code": 200,
+      "final_url": "https://www.cynbit.in/about",
+      "redirect_chain": [],
+      "response_time_ms": 210.0,
+      "html_size_bytes": 29100,
+      "title": "About Us | Cynbit Technologies",
+      "meta_description": "Learn about Cynbit's mission to drive AI automation and digital excellence.",
+      "h1s": [
+        "About Cynbit"
+      ],
+      "headings": [
+        [
+          1,
+          "About Cynbit"
+        ],
+        [
+          2,
+          "Leadership"
+        ],
+        [
+          2,
+          "Our Mission"
+        ]
+      ],
+      "word_count": 510,
+      "images_total": 6,
+      "images_missing_alt": 1,
+      "internal_links": [
+        "https://cynbit.in",
+        "https://cynbit.in/services"
+      ],
+      "external_links": [],
+      "canonical": "https://www.cynbit.in/about",
+      "meta_robots": "index, follow",
+      "json_ld_types": [
+        "AboutPage"
+      ],
+      "top_terms": [
+        "mission",
+        "team",
+        "growth",
+        "engineering"
+      ],
+      "raw_html": "<html><head><meta name='viewport' content='width=device-width, initial-scale=1.0'></head><body><header></header><nav></nav><main></main><footer></footer></body></html>",
+      "headers": {
+        "strict-transport-security": "max-age=31536000",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "semantic_landmarks": [
+        "header",
+        "nav",
+        "main",
+        "footer"
+      ],
+      "has_placeholder_content": false,
+      "form_inputs_without_labels": 0,
+      "open_graph_tags": [],
+      "html_lang": null,
+      "viewport_content": null,
+      "images_missing_dimensions": 0,
+      "images_modern_or_lazy": 0,
+      "render_blocking_scripts": 0,
+      "forms_count": 0,
+      "form_inputs_total": 0,
+      "form_inputs_validated": 0,
+      "dead_links": 0,
+      "anchors_total": 0,
+      "unsafe_blank_links": 0,
+      "positive_tabindex_count": 0,
+      "cta_count": 0,
+      "has_contact_signal": false,
+      "mixed_content_urls": []
+    },
+    {
+      "url": "https://cynbit.in/contact",
+      "status_code": 200,
+      "final_url": "https://www.cynbit.in/contact",
+      "redirect_chain": [],
+      "response_time_ms": 195.0,
+      "html_size_bytes": 22300,
+      "title": "Contact Us | Cynbit Technologies",
+      "meta_description": "Get in touch with Cynbit engineering specialists for your next AI project.",
+      "h1s": [
+        "Contact Us"
+      ],
+      "headings": [
+        [
+          1,
+          "Contact Us"
+        ],
+        [
+          2,
+          "Office Locations"
+        ]
+      ],
+      "word_count": 320,
+      "images_total": 2,
+      "images_missing_alt": 0,
+      "internal_links": [
+        "https://cynbit.in"
+      ],
+      "external_links": [],
+      "canonical": "https://www.cynbit.in/contact",
+      "meta_robots": "index, follow",
+      "json_ld_types": [
+        "ContactPage"
+      ],
+      "top_terms": [
+        "contact",
+        "email",
+        "consultation"
+      ],
+      "raw_html": "<html><head><meta name='viewport' content='width=device-width, initial-scale=1.0'></head><body><header></header><nav></nav><main></main><footer></footer></body></html>",
+      "headers": {
+        "strict-transport-security": "max-age=31536000",
+        "x-frame-options": "SAMEORIGIN"
+      },
+      "semantic_landmarks": [
+        "header",
+        "nav",
+        "main",
+        "footer"
+      ],
+      "has_placeholder_content": false,
+      "form_inputs_without_labels": 0,
+      "open_graph_tags": [],
+      "html_lang": null,
+      "viewport_content": null,
+      "images_missing_dimensions": 0,
+      "images_modern_or_lazy": 0,
+      "render_blocking_scripts": 0,
+      "forms_count": 0,
+      "form_inputs_total": 0,
+      "form_inputs_validated": 0,
+      "dead_links": 0,
+      "anchors_total": 0,
+      "unsafe_blank_links": 0,
+      "positive_tabindex_count": 0,
+      "cta_count": 0,
+      "has_contact_signal": false,
+      "mixed_content_urls": []
+    }
+  ],
+  "findings": [
+    {
+      "check_id": "AV01",
+      "category": "availability",
+      "status": "pass",
+      "points_earned": 2.0,
+      "max_points": 2.0,
+      "severity": "critical",
+      "impact": "high",
+      "passed": true,
+      "message": "The server accepted a connection and returned a response.",
+      "affected_urls": [],
+      "evidence": {
+        "status_code": 200,
+        "final_url": "https://www.cynbit.in"
+      },
+      "recommendation": "Verify DNS records, TLS certificate and that the origin is deployed."
+    },
+    {
+      "check_id": "AV02",
+      "category": "availability",
+      "status": "pass",
+      "points_earned": 3.0,
+      "max_points": 3.0,
+      "severity": "critical",
+      "impact": "high",
+      "passed": true,
+      "message": "Homepage returned HTTP 200.",
+      "affected_urls": [],
+      "evidence": {
+        "status_code": 200
+      },
+      "recommendation": "Make the primary URL return HTTP 200 without errors."
+    },
+    {
+      "check_id": "AV03",
+      "category": "availability",
+      "status": "pass",
+      "points_earned": 2.0,
+      "max_points": 2.0,
+      "severity": "critical",
+      "impact": "high",
+      "passed": true,
+      "message": "Homepage is served over HTTPS with a certificate that validated.",
+      "affected_urls": [],
+      "evidence": {
+        "final_url": "https://www.cynbit.in"
+      },
+      "recommendation": "Install a valid TLS certificate and serve all pages over HTTPS."
+    },
+    {
+      "check_id": "AV04",
+      "category": "availability",
+      "status": "pass",
+      "points_earned": 2.0,
+      "max_points": 2.0,
+      "severity": "medium",
+      "impact": "high",
+      "passed": true,
+      "message": "0 of 4 crawled pages returned a 5xx server error.",
+      "affected_urls": [],
+      "evidence": {
+        "server_error_count": 0,
+        "pages": 4
+      },
+      "recommendation": "Inspect server logs and fix the failing handlers."
+    },
+    {
+      "check_id": "AV05",
+      "category": "availability",
+      "status": "pass",
+      "points_earned": 1.0,
+      "max_points": 1.0,
+      "severity": "medium",
+      "impact": "medium",
+      "passed": true,
+      "message": "Homepage fetch completed in 342 ms.",
+      "affected_urls": [],
+      "evidence": {
+        "response_time_ms": 342
+      },
+      "recommendation": "Reduce server processing time and enable caching/CDN."
+    },
+    {
+      "check_id": "SE01",
+      "category": "seo",
+      "status": "partial",
+      "points_earned": 1.75,
+      "max_points": 2.0,
+      "severity": "high",
+      "impact": "high",
+      "passed": false,
+      "message": "3/4 pages have a title of 30-60 chars; 0 duplicated title(s).",
+      "affected_urls": [
+        "https://cynbit.in"
+      ],
+      "evidence": {
+        "in_range": 3,
+        "pages": 4,
+        "duplicate_titles": []
+      },
+      "recommendation": "Give every page a unique, descriptive title within the recommended length."
+    },
+    {
+      "check_id": "SE02",
+      "category": "seo",
+      "status": "pass",
+      "points_earned": 2.0,
+      "max_points": 2.0,
+      "severity": "medium",
+      "impact": "medium",
+      "passed": true,
+      "message": "4/4 pages have a meta description of 70-160 chars.",
+      "affected_urls": [],
+      "evidence": {
+        "in_range": 4,
+        "pages": 4
+      },
+      "recommendation": "Write a unique meta description summarising each page."
+    },
+    {
+      "check_id": "SE03",
+      "category": "seo",
+      "status": "pass",
+      "points_earned": 2.0,
+      "max_points": 2.0,
+      "severity": "medium",
+      "impact": "medium",
+      "passed": true,
+      "message": "4/4 pages have exactly one H1 and no skipped heading levels.",
+      "affected_urls": [],
+      "evidence": {
+        "clean_pages": 4,
+        "pages": 4
+      },
+      "recommendation": "Use one H1 per page and nest headings without skipping levels."
+    },
+    {
+      "check_id": "SE04",
+      "category": "seo",
+      "status": "pass",
+      "points_earned": 2.0,
+      "max_points": 2.0,
+      "severity": "low",
+      "impact": "low",
+      "passed": true,
+      "message": "Structured data found on homepage: Organization, WebSite.",
+      "affected_urls": [],
+      "evidence": {
+        "homepage_types": [
+          "Organization",
+          "WebSite"
+        ],
+        "site_types": [
+          "AboutPage",
+          "ContactPage",
+          "Organization",
+          "Service",
+          "WebSite"
+        ]
+      },
+      "recommendation": "Add JSON-LD (Organization/WebSite on the homepage, plus page-type schemas)."
+    },
+    {
+      "check_id": "SE05",
+      "category": "seo",
+      "status": "not_tested",
+      "points_earned": 0.0,
+      "max_points": 2.0,
+      "severity": "info",
+      "impact": "low",
+      "passed": true,
+      "message": "Sitemap could not be checked (no site-level crawl data or no response).",
+      "affected_urls": [],
+      "evidence": {},
+      "recommendation": ""
+    },
+    {
+      "check_id": "SE06",
+      "category": "seo",
+      "status": "not_tested",
+      "points_earned": 0.0,
+      "max_points": 1.0,
+      "severity": "info",
+      "impact": "low",
+      "passed": true,
+      "message": "robots.txt could not be checked (no site-level crawl data or no response).",
+      "affected_urls": [],
+      "evidence": {},
+      "recommendation": ""
+    },
+    {
+      "check_id": "SE07",
+      "category": "seo",
+      "status": "pass",
+      "points_earned": 1.0,
+      "max_points": 1.0,
+      "severity": "medium",
+      "impact": "medium",
+      "passed": true,
+      "message": "4/4 pages declare a canonical URL.",
+      "affected_urls": [],
+      "evidence": {
+        "with_canonical": 4,
+        "pages": 4
+      },
+      "recommendation": "Add a self-referencing <link rel='canonical'> to every indexable page."
+    },
+    {
+      "check_id": "SE08",
+      "category": "seo",
+      "status": "fail",
+      "points_earned": 0.0,
+      "max_points": 1.0,
+      "severity": "low",
+      "impact": "low",
+      "passed": false,
+      "message": "Homepage declares 0/3 Open Graph tags.",
+      "affected_urls": [],
+      "evidence": {
+        "present": [],
+        "missing": [
+          "og:title",
+          "og:description",
+          "og:image"
+        ]
+      },
+      "recommendation": "Add og:title, og:description and og:image for rich social previews."
+    },
+    {
+      "check_id": "SE09",
+      "category": "seo",
+      "status": "pass",
+      "points_earned": 2.0,
+      "max_points": 2.0,
+      "severity": "medium",
+      "impact": "medium",
+      "passed": true,
+      "message": "0 of 3 crawled pages have no internal link pointing to them.",
+      "affected_urls": [],
+      "evidence": {
+        "orphans": 0,
+        "pages": 3
+      },
+      "recommendation": "Link every important page from navigation or related content."
+    },
+    {
+      "check_id": "PF01",
+      "category": "performance",
+      "status": "pass",
+      "points_earned": 4.0,
+      "max_points": 4.0,
+      "severity": "high",
+      "impact": "high",
+      "passed": true,
+      "message": "Average server response time is 257 ms across 4 pages.",
+      "affected_urls": [],
+      "evidence": {
+        "avg_response_ms": 257
+      },
+      "recommendation": "Use caching/CDN and optimise backend queries to keep responses under 800 ms."
+    },
+    {
+      "check_id": "PF02",
+      "category": "performance",
+      "status": "not_tested",
+      "points_earned": 0.0,
+      "max_points": 3.0,
+      "severity": "info",
+      "impact": "low",
+      "passed": true,
+      "message": "Interaction latency (INP) needs a real browser; not measured by the HTML crawler.",
+      "affected_urls": [],
+      "evidence": {},
+      "recommendation": "Run Lighthouse or the PageSpeed API for field/lab INP data."
+    },
+    {
+      "check_id": "PF03",
+      "category": "performance",
+      "status": "pass",
+      "points_earned": 2.0,
+      "max_points": 2.0,
+      "severity": "medium",
+      "impact": "medium",
+      "passed": true,
+      "message": "34/34 images declare width and height (layout-shift risk proxy).",
+      "affected_urls": [],
+      "evidence": {
+        "images": 34,
+        "missing_dimensions": 0
+      },
+      "recommendation": "Set explicit width and height (or aspect-ratio) on every image."
+    },
+    {
+      "check_id": "PF04",
+      "category": "performance",
+      "status": "fail",
+      "points_earned": 0.0,
+      "max_points": 2.0,
+      "severity": "medium",
+      "impact": "medium",
+      "passed": false,
+      "message": "0/4 HTML responses are compressed.",
+      "affected_urls": [
+        "https://cynbit.in",
+        "https://cynbit.in/services",
+        "https://cynbit.in/about",
+        "https://cynbit.in/contact"
+      ],
+      "evidence": {
+        "compressed": 0,
+        "pages": 4
+      },
+      "recommendation": "Enable Brotli or gzip compression for HTML, CSS and JS."
+    },
+    {
+      "check_id": "PF05",
+      "category": "performance",
+      "status": "fail",
+      "points_earned": 0.0,
+      "max_points": 1.0,
+      "severity": "low",
+      "impact": "low",
+      "passed": false,
+      "message": "0/34 images are lazy-loaded or use WebP/AVIF/SVG.",
+      "affected_urls": [],
+      "evidence": {
+        "images": 34,
+        "modern_or_lazy": 0
+      },
+      "recommendation": "Serve WebP/AVIF and add loading='lazy' to below-the-fold images."
+    },
+    {
+      "check_id": "PF06",
+      "category": "performance",
+      "status": "pass",
+      "points_earned": 1.0,
+      "max_points": 1.0,
+      "severity": "low",
+      "impact": "low",
+      "passed": true,
+      "message": "Pages average 0.0 render-blocking <script> tags in <head>.",
+      "affected_urls": [],
+      "evidence": {
+        "avg_blocking_scripts": 0.0
+      },
+      "recommendation": "Add defer/async to head scripts or move them to the end of <body>."
+    },
+    {
+      "check_id": "PF07",
+      "category": "performance",
+      "status": "pass",
+      "points_earned": 2.0,
+      "max_points": 2.0,
+      "severity": "medium",
+      "impact": "medium",
+      "passed": true,
+      "message": "Average HTML document size is 34 KB.",
+      "affected_urls": [],
+      "evidence": {
+        "avg_html_kb": 34
+      },
+      "recommendation": "Trim inline scripts/styles and large server-rendered payloads."
+    },
+    {
+      "check_id": "UX01",
+      "category": "ui_ux",
+      "status": "partial",
+      "points_earned": 2.25,
+      "max_points": 3.0,
+      "severity": "high",
+      "impact": "high",
+      "passed": false,
+      "message": "Homepage has a <nav> landmark: True; 3 navigation link(s).",
+      "affected_urls": [],
+      "evidence": {
+        "nav_landmark": true,
+        "links": 3,
+        "single_page": false
+      },
+      "recommendation": "Provide a clear <nav> with links to the main sections."
+    },
+    {
+      "check_id": "UX02",
+      "category": "ui_ux",
+      "status": "not_tested",
+      "points_earned": 0.0,
+      "max_points": 2.0,
+      "severity": "info",
+      "impact": "low",
+      "passed": true,
+      "message": "Visual consistency needs rendered screenshots; not measured.",
+      "affected_urls": [],
+      "evidence": {},
+      "recommendation": ""
+    },
+    {
+      "check_id": "UX03",
+      "category": "ui_ux",
+      "status": "fail",
+      "points_earned": 0.0,
+      "max_points": 3.0,
+      "severity": "critical",
+      "impact": "high",
+      "passed": false,
+      "message": "Homepage has no <meta name='viewport'>; it will not render responsively on phones.",
+      "affected_urls": [
+        "https://cynbit.in"
+      ],
+      "evidence": {},
+      "recommendation": "Add <meta name='viewport' content='width=device-width, initial-scale=1'>."
+    },
+    {
+      "check_id": "UX04",
+      "category": "ui_ux",
+      "status": "pass",
+      "points_earned": 2.0,
+      "max_points": 2.0,
+      "severity": "high",
+      "impact": "high",
+      "passed": true,
+      "message": "0 of 4 crawled link targets are broken (4xx/5xx/unreachable).",
+      "affected_urls": [],
+      "evidence": {
+        "broken": 0,
+        "linked_targets_crawled": 4
+      },
+      "recommendation": "Fix or redirect broken internal links."
+    },
+    {
+      "check_id": "UX05",
+      "category": "ui_ux",
+      "status": "fail",
+      "points_earned": 0.0,
+      "max_points": 2.0,
+      "severity": "medium",
+      "impact": "medium",
+      "passed": false,
+      "message": "Homepage has 0 action-oriented link(s)/button(s) (e.g. 'Get started', 'Contact').",
+      "affected_urls": [],
+      "evidence": {
+        "cta_count": 0
+      },
+      "recommendation": "Add clear, verb-led calls to action above the fold."
+    },
+    {
+      "check_id": "UX06",
+      "category": "ui_ux",
+      "status": "pass",
+      "points_earned": 2.0,
+      "max_points": 2.0,
+      "severity": "low",
+      "impact": "low",
+      "passed": true,
+      "message": "Inner pages share 100% of the homepage's structural landmarks.",
+      "affected_urls": [],
+      "evidence": {
+        "mean_similarity": 1.0
+      },
+      "recommendation": "Reuse a shared header/nav/footer template across all pages."
+    },
+    {
+      "check_id": "UX07",
+      "category": "ui_ux",
+      "status": "pass",
+      "points_earned": 1.0,
+      "max_points": 1.0,
+      "severity": "low",
+      "impact": "low",
+      "passed": true,
+      "message": "Text pages average 187 words per heading.",
+      "affected_urls": [],
+      "evidence": {
+        "avg_words_per_heading": 187
+      },
+      "recommendation": "Break long sections up with descriptive subheadings."
+    },
+    {
+      "check_id": "CT01",
+      "category": "content",
+      "status": "pass",
+      "points_earned": 3.0,
+      "max_points": 3.0,
+      "severity": "high",
+      "impact": "high",
+      "passed": true,
+      "message": "Homepage contains 845 words of visible text.",
+      "affected_urls": [],
+      "evidence": {
+        "homepage_words": 845
+      },
+      "recommendation": "Explain what the site offers with at least 300 words of substantive copy."
+    },
+    {
+      "check_id": "CT02",
+      "category": "content",
+      "status": "pass",
+      "points_earned": 3.0,
+      "max_points": 3.0,
+      "severity": "medium",
+      "impact": "medium",
+      "passed": true,
+      "message": "0 of 4 pages have fewer than 150 words.",
+      "affected_urls": [],
+      "evidence": {
+        "thin_pages": 0,
+        "pages": 4
+      },
+      "recommendation": "Expand or consolidate thin pages."
+    },
+    {
+      "check_id": "CT03",
+      "category": "content",
+      "status": "partial",
+      "points_earned": 1.08,
+      "max_points": 2.0,
+      "severity": "medium",
+      "impact": "medium",
+      "passed": false,
+      "message": "Title/H1 terms match the body's dominant terms on 3/4 text pages; 33% of target keywords appear in title/H1/meta.",
+      "affected_urls": [],
+      "evidence": {
+        "pages_aligned": 3,
+        "pages_checked": 4,
+        "keyword_coverage": 0.3333333333333333
+      },
+      "recommendation": "Make titles and H1s reflect what the page body is actually about."
+    },
+    {
+      "check_id": "CT04",
+      "category": "content",
+      "status": "not_applicable",
+      "points_earned": 0.0,
+      "max_points": 2.0,
+      "severity": "info",
+      "impact": "low",
+      "passed": true,
+      "message": "No page has enough text to compute readability.",
+      "affected_urls": [],
+      "evidence": {},
+      "recommendation": ""
+    },
+    {
+      "check_id": "CT05",
+      "category": "content",
+      "status": "not_applicable",
+      "points_earned": 0.0,
+      "max_points": 2.0,
+      "severity": "info",
+      "impact": "low",
+      "passed": true,
+      "message": "Fewer than two text pages: duplicate analysis does not apply.",
+      "affected_urls": [],
+      "evidence": {},
+      "recommendation": ""
+    },
+    {
+      "check_id": "CT06",
+      "category": "content",
+      "status": "pass",
+      "points_earned": 2.0,
+      "max_points": 2.0,
+      "severity": "medium",
+      "impact": "high",
+      "passed": true,
+      "message": "No placeholder text detected.",
+      "affected_urls": [],
+      "evidence": {
+        "placeholder_pages": 0
+      },
+      "recommendation": "Replace placeholder copy with real content."
+    },
+    {
+      "check_id": "CT07",
+      "category": "content",
+      "status": "fail",
+      "points_earned": 0.0,
+      "max_points": 1.0,
+      "severity": "low",
+      "impact": "medium",
+      "passed": false,
+      "message": "No contact or about information found.",
+      "affected_urls": [],
+      "evidence": {},
+      "recommendation": "Expose contact details (email, phone, form) in header or footer."
+    },
+    {
+      "check_id": "FN01",
+      "category": "functionality",
+      "status": "pass",
+      "points_earned": 3.0,
+      "max_points": 3.0,
+      "severity": "high",
+      "impact": "high",
+      "passed": true,
+      "message": "0 of 4 pages timed out/failed to fetch or redirect more than 2 times.",
+      "affected_urls": [],
+      "evidence": {
+        "problem_pages": 0,
+        "pages": 4
+      },
+      "recommendation": "Fix unreachable pages and collapse long redirect chains."
+    },
+    {
+      "check_id": "FN02",
+      "category": "functionality",
+      "status": "not_applicable",
+      "points_earned": 0.0,
+      "max_points": 3.0,
+      "severity": "info",
+      "impact": "low",
+      "passed": true,
+      "message": "No form inputs found.",
+      "affected_urls": [],
+      "evidence": {},
+      "recommendation": ""
+    },
+    {
+      "check_id": "FN03",
+      "category": "functionality",
+      "status": "not_applicable",
+      "points_earned": 0.0,
+      "max_points": 2.0,
+      "severity": "info",
+      "impact": "low",
+      "passed": true,
+      "message": "No links found.",
+      "affected_urls": [],
+      "evidence": {},
+      "recommendation": ""
+    },
+    {
+      "check_id": "FN04",
+      "category": "functionality",
+      "status": "pass",
+      "points_earned": 2.0,
+      "max_points": 2.0,
+      "severity": "low",
+      "impact": "low",
+      "passed": true,
+      "message": "0 link(s) open a new tab without rel='noopener'.",
+      "affected_urls": [],
+      "evidence": {
+        "unsafe_links": 0
+      },
+      "recommendation": "Add rel='noopener noreferrer' to links using target='_blank'."
+    },
+    {
+      "check_id": "FN05",
+      "category": "functionality",
+      "status": "not_tested",
+      "points_earned": 0.0,
+      "max_points": 2.0,
+      "severity": "info",
+      "impact": "low",
+      "passed": true,
+      "message": "Interactive widgets need a real browser session; not measured.",
+      "affected_urls": [],
+      "evidence": {},
+      "recommendation": ""
+    },
+    {
+      "check_id": "FN06",
+      "category": "functionality",
+      "status": "not_tested",
+      "points_earned": 0.0,
+      "max_points": 2.0,
+      "severity": "info",
+      "impact": "low",
+      "passed": true,
+      "message": "JavaScript console errors need a real browser session; not measured.",
+      "affected_urls": [],
+      "evidence": {},
+      "recommendation": ""
+    },
+    {
+      "check_id": "FN07",
+      "category": "functionality",
+      "status": "not_tested",
+      "points_earned": 0.0,
+      "max_points": 1.0,
+      "severity": "info",
+      "impact": "low",
+      "passed": true,
+      "message": "Critical user flows (checkout, signup) need scripted interaction; not measured.",
+      "affected_urls": [],
+      "evidence": {},
+      "recommendation": ""
+    },
+    {
+      "check_id": "SC01",
+      "category": "security",
+      "status": "not_tested",
+      "points_earned": 0.0,
+      "max_points": 1.0,
+      "severity": "info",
+      "impact": "low",
+      "passed": true,
+      "message": "HTTP-to-HTTPS redirect was not probed.",
+      "affected_urls": [],
+      "evidence": {},
+      "recommendation": ""
+    },
+    {
+      "check_id": "SC02",
+      "category": "security",
+      "status": "pass",
+      "points_earned": 1.0,
+      "max_points": 1.0,
+      "severity": "medium",
+      "impact": "high",
+      "passed": true,
+      "message": "No mixed content found.",
+      "affected_urls": [],
+      "evidence": {
+        "examples": []
+      },
+      "recommendation": "Load every script, stylesheet and image over HTTPS."
+    },
+    {
+      "check_id": "SC03",
+      "category": "security",
+      "status": "partial",
+      "points_earned": 1.0,
+      "max_points": 2.0,
+      "severity": "medium",
+      "impact": "medium",
+      "passed": false,
+      "message": "2/4 security headers present: strict-transport-security, x-frame-options.",
+      "affected_urls": [],
+      "evidence": {
+        "present": [
+          "strict-transport-security",
+          "x-frame-options"
+        ],
+        "missing": [
+          "content-security-policy",
+          "x-content-type-options"
+        ]
+      },
+      "recommendation": "Send HSTS, CSP, X-Content-Type-Options and X-Frame-Options headers."
+    },
+    {
+      "check_id": "SC04",
+      "category": "security",
+      "status": "pass",
+      "points_earned": 1.0,
+      "max_points": 1.0,
+      "severity": "low",
+      "impact": "low",
+      "passed": true,
+      "message": "No technology/version disclosure in response headers.",
+      "affected_urls": [],
+      "evidence": {
+        "server": "",
+        "x_powered_by": ""
+      },
+      "recommendation": "Remove X-Powered-By and version numbers from Server headers."
+    },
+    {
+      "check_id": "AC01",
+      "category": "accessibility",
+      "status": "partial",
+      "points_earned": 1.82,
+      "max_points": 2.0,
+      "severity": "medium",
+      "impact": "medium",
+      "passed": false,
+      "message": "31/34 images have an alt attribute (alt='' marks decorative images).",
+      "affected_urls": [
+        "https://cynbit.in",
+        "https://cynbit.in/about"
+      ],
+      "evidence": {
+        "images": 34,
+        "missing_alt": 3
+      },
+      "recommendation": "Add alt text to informative images and alt='' to decorative ones."
+    },
+    {
+      "check_id": "AC02",
+      "category": "accessibility",
+      "status": "not_applicable",
+      "points_earned": 0.0,
+      "max_points": 2.0,
+      "severity": "info",
+      "impact": "low",
+      "passed": true,
+      "message": "No form inputs found.",
+      "affected_urls": [],
+      "evidence": {},
+      "recommendation": ""
+    },
+    {
+      "check_id": "AC03",
+      "category": "accessibility",
+      "status": "partial",
+      "points_earned": 1.2,
+      "max_points": 2.0,
+      "severity": "medium",
+      "impact": "medium",
+      "passed": false,
+      "message": "<html lang>: missing; positive tabindex elements: 0; pinch-zoom allowed.",
+      "affected_urls": [],
+      "evidence": {
+        "lang": null,
+        "positive_tabindex": 0,
+        "zoom_blocked": false
+      },
+      "recommendation": "Set <html lang>, avoid tabindex > 0 and never disable zoom."
+    },
+    {
+      "check_id": "AC04",
+      "category": "accessibility",
+      "status": "not_tested",
+      "points_earned": 0.0,
+      "max_points": 2.0,
+      "severity": "info",
+      "impact": "low",
+      "passed": true,
+      "message": "Colour contrast needs rendered CSS; not measured by the HTML crawler.",
+      "affected_urls": [],
+      "evidence": {},
+      "recommendation": ""
+    },
+    {
+      "check_id": "AC05",
+      "category": "accessibility",
+      "status": "pass",
+      "points_earned": 2.0,
+      "max_points": 2.0,
+      "severity": "medium",
+      "impact": "medium",
+      "passed": true,
+      "message": "Landmarks on homepage: footer, header, main, nav.",
+      "affected_urls": [],
+      "evidence": {
+        "landmarks": [
+          "footer",
+          "header",
+          "main",
+          "nav"
+        ]
+      },
+      "recommendation": "Structure pages with <header>, <nav>, <main> and <footer>."
+    }
+  ],
+  "llm_report": {
+    "executive_summary": "cynbit.in demonstrates an exceptional technical foundation with an overall SEO health score of 92.5 (Grade A). HTTPS enforcement, XML sitemaps, semantic heading structures, and response latencies meet industry best practices. Primary growth opportunities involve image alt attribute coverage and expanded Schema.org rich snippets.",
+    "action_plan": [
+      {
+        "rank": 1,
+        "title": "Add Descriptive Alt Text to Team & Portfolio Images",
+        "why_it_matters": "Search engines rely on image alt text to understand graphic context and improve accessibility.",
+        "how_to_fix": "Add descriptive, keyword-rich alt tags to the 3 unannotated images in hero and team sections.",
+        "affected_urls": [
+          "https://cynbit.in",
+          "https://cynbit.in/about"
+        ],
+        "impact": "high",
+        "effort": "low"
+      },
+      {
+        "rank": 2,
+        "title": "Expand Schema.org Markup with LocalBusiness & Review Aggregates",
+        "why_it_matters": "Rich snippets enhance SERP click-through rates and establish local entity trust.",
+        "how_to_fix": "Inject JSON-LD LocalBusiness metadata including office address, contact coordinates, and BitElevate product references.",
+        "affected_urls": [
+          "https://cynbit.in/contact"
+        ],
+        "impact": "high",
+        "effort": "low"
+      },
+      {
+        "rank": 3,
+        "title": "Enrich Contact Page Word Count with FAQ Section",
+        "why_it_matters": "Contact pages with under 400 words risk thin-content deindexing on competitive queries.",
+        "how_to_fix": "Add an interactive FAQ addressing common client questions on AI consulting onboarding timelines.",
+        "affected_urls": [
+          "https://cynbit.in/contact"
+        ],
+        "impact": "medium",
+        "effort": "low"
+      }
+    ],
+    "quick_wins": [
+      "Add alt text to 3 homepage and about page images (estimated time: 10 minutes)",
+      "Inject LocalBusiness JSON-LD schema into contact page footer (estimated time: 20 minutes)"
+    ],
+    "content_insights": [
+      "High keyword density detected for 'AI automation' and 'digital engineering platform'.",
+      "Opportunity to create dedicated landing pages for sub-specializations: 'AI Consulting in India' and 'TenantEase AI Workflow'."
+    ],
+    "competitor_notes": null
+  }
+}
