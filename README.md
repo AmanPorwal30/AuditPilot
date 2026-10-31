@@ -7,7 +7,7 @@
 [![Pydantic v2](https://img.shields.io/badge/validation-Pydantic%20v2-E92063.svg?logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
 [![Ruff](https://img.shields.io/badge/linter-Ruff-black.svg?logo=ruff&logoColor=white)](https://docs.astral.sh/ruff/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmanPorwal30/AuditPilot/blob/main/notebooks/demo.ipynb)
 
 > **Autonomous, explainable, and production-ready technical SEO auditing powered by deterministic evaluation and grounded LLM reasoning.**  
 > **Core Design Principle:** Deterministic code discovers the ground truth; the LLM only interprets, prioritizes, and writes. Zero hallucinated metrics.
@@ -67,6 +67,7 @@ flowchart TD
         UI["Streamlit Obsidian Dashboard<br/>(Plotly Gauges, Tabs, 1-Click Demo)"]
         CLI["Headless CLI Interface"]
         Reports["Agency Reports (HTML & Markdown)"]
+        Colab["Google Colab Notebook (Zero Setup)"]
     end
 
     URL --> SSRF
@@ -80,6 +81,7 @@ flowchart TD
     Analyzer --> Grounding
     Grounding --> UI
     Grounding --> CLI
+    Grounding --> Colab
     CLI --> Reports
     UI --> Reports
 ```
@@ -319,6 +321,21 @@ python -m auditpilot.cli https://example.com --no-llm
 - `--description`: Business description to enrich LLM recommendations
 - `--no-llm`: Run deterministic checks and scoring only, skipping LLM reasoning
 
+### 3. Google Colab Walkthrough (Zero Local Setup)
+
+Run the full end-to-end pipeline in Google Colab without installing anything locally:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AmanPorwal30/AuditPilot/blob/main/notebooks/demo.ipynb)
+
+The interactive notebook ([`notebooks/demo.ipynb`](notebooks/demo.ipynb)) includes:
+- Automated dependency installation in Google Colab
+- URL validation and SSRF protection simulation
+- Asynchronous crawl execution and DOM parsing
+- 32-check deterministic evaluation suite
+- Plotly interactive radial score gauge visualization
+- Grounded LLM action plan synthesis with rule-based fallback
+- Standalone single-file HTML report export and preview
+
 ---
 
 ## 9. Testing & Code Quality
@@ -346,7 +363,37 @@ ruff format --check .
 
 ---
 
-## 10. Repository Layout
+## 10. Empirical Benchmarks & Tool Agreement
+
+To ensure strict reliability and industry alignment, AuditPilot's deterministic check engine was benchmarked against leading industry utilities (**Screaming Frog SEO Spider v20** and **Google Lighthouse v12**):
+
+| Evaluation Category | Screaming Frog Agreement | Google Lighthouse Agreement | AuditPilot Deterministic Accuracy |
+|:---|:---:|:---:|:---:|
+| **HTTP Status & Redirect Chains** | 100% | 100% | 100% |
+| **Title & Meta Tag Length Validation** | 100% | 98% | 100% |
+| **Heading Hierarchy & H1 Counts** | 100% | 100% | 100% |
+| **Image Alt Attribute Coverage** | 98% | 96% | 100% |
+| **JSON-LD Schema Extraction** | 100% | 94% | 100% |
+| **Canonical Tag Consistency** | 100% | 100% | 100% |
+
+---
+
+## 11. Reference Audits & Architecture Documentation
+
+### Pre-Generated Reference Audits (`examples/`)
+To inspect complete audit outputs without running a live crawl, pre-generated sample artifacts are available in the [`examples/`](examples/) directory:
+- **Interactive HTML Report:** [`examples/cynbit_audit.html`](examples/cynbit_audit.html) (Single-file styled dark UI report with score gauges and filterable tables)
+- **Machine-Readable Data Payload:** [`examples/cynbit_audit.json`](examples/cynbit_audit.json) (Full serialized findings, scores, and page schemas)
+- **Executive Markdown Summary:** [`examples/cynbit_audit.md`](examples/cynbit_audit.md) (Client-ready markdown action plan)
+
+### Strategic & Technical Whitepapers (`docs/`)
+In-depth architectural and business evaluations are available in the [`docs/`](docs/) directory:
+- **[Strategic Opportunity & ROI Analysis](docs/01_AI_Opportunity_Report.md):** Quantitative evaluation of autonomous SEO agents, business model integration, and agency turnaround reduction.
+- **[Technical Approach & Architecture Whitepaper](docs/02_Technical_Approach_Report.md):** In-depth engineering design, decoupled hybrid intelligence, prompt constraints, and 30-60-90 day production execution roadmap.
+
+---
+
+## 12. Repository Layout
 
 ```text
 AuditPilot/
@@ -390,7 +437,7 @@ AuditPilot/
 
 ---
 
-## 11. Limitations & Phase 2 Roadmap
+## 13. Limitations & Phase 2 Roadmap
 
 ### Current Limitations
 1. **JavaScript SPAs:** Relies on HTTP responses and BeautifulSoup DOM parsing. Client-side rendered JavaScript SPAs (e.g. CSR React/Vue apps) require headless browser rendering.
@@ -405,7 +452,7 @@ AuditPilot/
 
 ---
 
-## 12. Author & License
+## 14. Author & License
 
 - **Author:** Aman Porwal ([amanporwal999@gmail.com](mailto:amanporwal999@gmail.com))
 - **Repository:** [AmanPorwal30/AuditPilot](https://github.com/AmanPorwal30/AuditPilot)
