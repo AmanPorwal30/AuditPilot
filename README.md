@@ -9,22 +9,21 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
 
-> **Candidate:** Aman Porwal (`amanporwal999@gmail.com`)  
-> **Assessment:** AI/ML Engineer Intern Assessment | Cynbit Technologies Private Limited  
-> **Guiding Principle:** Deterministic code uncovers facts; the LLM only interprets, prioritizes, and writes. Zero hallucinated metrics.
+> **Autonomous, explainable, and production-ready technical SEO auditing powered by deterministic evaluation and grounded LLM reasoning.**  
+> **Core Design Principle:** Deterministic code discovers the ground truth; the LLM only interprets, prioritizes, and writes. Zero hallucinated metrics.
 
 ---
 
-## 1. Executive Summary & Cynbit Business Case
+## 1. Executive Summary & Overview
 
-**AuditPilot** is an autonomous AI-powered technical SEO audit agent engineered for **Cynbit Technologies Private Limited**. 
+**AuditPilot** is an autonomous AI-powered technical SEO audit agent engineered for digital marketing agencies, SEO consultants, software engineering teams, and enterprise web platforms.
 
 ### The Problem
-Manual SEO site audits take hours of manual inspection across disjoint tools (Screaming Frog, Lighthouse, PageSpeed), resulting in inconsistent recommendations, complex technical jargon that clients struggle to understand, and delayed agency turnaround.
+Manual SEO audits typically demand hours of manual inspection across fragmented tools (e.g., Screaming Frog, Google Lighthouse, PageSpeed Insights). This leads to inconsistent findings, complex technical jargon that non-technical stakeholders struggle to interpret, and high turnaround costs.
 
-### The Cynbit Solution
-Cynbit provides digital engineering, funnel optimization, and automated AI workflows. AuditPilot automates a core billable agency service:
-1. **Crawls** client websites breadth-first with polite asynchronous workers.
+### The AuditPilot Solution
+AuditPilot transforms manual, labor-intensive site evaluations into an automated, reproducible, and explainable audit pipeline:
+1. **Crawls** target websites breadth-first with polite, asynchronous workers.
 2. **Executes 32 deterministic SEO checks** spanning on-page metadata, technical hygiene, content quality, and performance.
 3. **Calculates an explainable 100-point composite score** across 8 weighted categories with critical issue score caps.
 4. **Leverages free-tier LLMs** (Google Gemini 2.0/1.5 Flash via `google-genai` SDK or Groq Llama 3) to synthesize a prioritized, client-ready action plan with high-impact quick wins.
@@ -35,12 +34,12 @@ Cynbit provides digital engineering, funnel optimization, and automated AI workf
 
 ## 2. System Architecture
 
-AuditPilot decouples deterministic data harvesting from LLM reasoning:
+AuditPilot cleanly decouples deterministic data harvesting from LLM reasoning:
 
 ```mermaid
 flowchart TD
     subgraph Input ["1. User & Config"]
-        URL["Target URL (e.g. cynbit.in)"]
+        URL["Target Website URL<br/>(e.g. https://example.com)"]
         Opts["Crawl Depth / Keywords / Description"]
     end
 
@@ -165,7 +164,7 @@ To prevent a site with severe technical failures (such as sitewide 5xx errors or
 - **2+ Critical Failures:** Overall score capped at **45 / 100**
 
 ### Rating Bands
-| Score Range | Grade | Rating Band | Agency Interpretation |
+| Score Range | Grade | Rating Band | Agency / Audit Interpretation |
 |:---:|:---:|:---:|:---|
 | **90 – 100** | **A** | `Excellent` | Fully optimized; production-ready for search indexing. |
 | **80 – 89** | **B** | `Very Good` | High performance; minor non-critical improvements needed. |
@@ -196,7 +195,7 @@ AuditPilot is architected specifically around the **free-tier limits** of Google
            └── Failure / Timeout ► [ Deterministic Rule Fallback ]
 ```
 
-1. **Free-Tier Optimization:** Input prompts are compressed into structured summaries (<2,500 tokens per audit), operating well within Gemini's 15 RPM / 1,500 RPD free tier and Groq's 30 RPM quota.
+1. **Free-Tier Optimization:** Input prompts are compressed into structured summaries (<2,500 tokens per audit), operating comfortably within Gemini's 15 RPM / 1,500 RPD free tier and Groq's 30 RPM quota.
 2. **Strict Grounding:** The LLM prompt explicitly forbids inventing metrics, URLs, or issues. A post-generation `validate_grounding` pass verifies that any URL mentioned in the action plan was actually visited during the crawl.
 3. **Structured JSON Output:** Responses are constrained to Pydantic v2 models (`LLMReport`, `ActionItem`).
 4. **Deterministic Fallback:** If API keys are missing, network requests time out, or rate limits occur (HTTP 429), the `SEOAnalyzer` automatically activates a deterministic rule-based generator that synthesizes prioritized action items directly from critical and warning findings.
@@ -225,8 +224,8 @@ To ensure safe multi-tenant operation in cloud environments, AuditPilot includes
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/cynbit/auditpilot.git
-cd auditpilot
+git clone https://github.com/AmanPorwal30/AuditPilot.git
+cd AuditPilot
 
 # 2. Sync virtual environment and dependencies
 uv sync
@@ -263,14 +262,14 @@ GEMINI_MODEL=gemini-2.0-flash
 
 # Alternative: Groq Free Tier
 GROQ_API_KEY=gsk_...
-GROQ_MODEL=llama3-70b-8192
+GROQ_MODEL=llama-3.3-70b-versatile
 
 # Crawler Controls
 DEFAULT_MAX_PAGES=25
 MAX_PAGE_LIMIT=50
 CRAWL_CONCURRENCY=5
 REQUEST_DELAY_SECONDS=0.4
-USER_AGENT="AuditPilotBot/0.1 (+https://cynbit.in)"
+USER_AGENT="AuditPilotBot/0.1 (+https://yourdomain.com/bot)"
 ```
 
 ---
@@ -286,7 +285,7 @@ streamlit run app/streamlit_app.py
 ```
 
 **Dashboard Highlights:**
-- **One-Click Cynbit Demo:** Click the `Audit cynbit.in` demo button in the sidebar to run an immediate live audit with pre-configured parameters.
+- **One-Click Demo Mode:** Run an instant sample audit with pre-configured parameters to explore gauges, breakdowns, and AI action plans without needing live crawl setup.
 - **Score Gauges & Visuals:** Radial Plotly score gauges, category health bars, and pass/fail distributions.
 - **Interactive Action Plan:** Filterable prioritized action items grouped by Impact (`High`, `Medium`, `Low`) and Effort (`Low`, `Medium`, `High`).
 - **Audit Findings Table:** Searchable table filterable by category (`On-Page`, `Technical`, `Content`, `Performance`) and severity (`Critical`, `Warning`, `Info`).
@@ -298,17 +297,17 @@ Run audits directly from the command line:
 
 ```bash
 # Standard 10-page audit
-python -m auditpilot.cli https://cynbit.in --max-pages 10
+python -m auditpilot.cli https://example.com --max-pages 10
 
 # Audit with target keywords and business description
-python -m auditpilot.cli https://cynbit.in \
+python -m auditpilot.cli https://example.com \
   --max-pages 25 \
-  --keywords "technical SEO, AI automation, digital engineering" \
-  --description "AI-powered digital engineering and SEO consulting firm" \
+  --keywords "technical SEO, web performance, digital consulting" \
+  --description "Enterprise cloud platform and SaaS consulting firm" \
   --output-dir ./reports
 
 # Run purely deterministic checks without LLM reasoning
-python -m auditpilot.cli https://cynbit.in --no-llm
+python -m auditpilot.cli https://example.com --no-llm
 ```
 
 **CLI Flags:**
@@ -350,10 +349,10 @@ ruff format --check .
 ## 10. Repository Layout
 
 ```text
-auditpilot/
-├── SPEC.md                      # Complete system specification
-├── GEMINI.md                    # Antigravity agent guidelines and safety invariants
-├── AGENTS.md                    # Multi-agent roles and Boil-the-Lake protocols
+AuditPilot/
+├── SPEC.md                      # System specification & architecture baseline
+├── GEMINI.md                    # Agent protocols, invariants, and safety guidelines
+├── AGENTS.md                    # Multi-agent roles and collaboration contracts
 ├── pyproject.toml               # Build configuration, dependencies, and tools
 ├── .env.example                 # Template for environment configuration
 ├── .gitignore                   # Multi-agent and Python ignore rules
@@ -384,8 +383,8 @@ auditpilot/
 │   └── streamlit_app.py         # Obsidian-themed Streamlit dashboard
 ├── tests/                       # Pytest unit & integration test suites
 │   └── fixtures/                # Static HTML test fixtures
-├── examples/                    # Pre-generated sample audits for cynbit.in
-├── docs/                        # Strategic AI Opportunity & Technical Approach Reports
+├── examples/                    # Pre-generated sample audits and reference outputs
+├── docs/                        # Technical architecture, reports, and methodology documentation
 └── notebooks/                   # Google Colab walkthrough notebook
 ```
 
@@ -406,10 +405,8 @@ auditpilot/
 
 ---
 
-## 12. Assessment Submission Details
+## 12. Author & License
 
-- **Candidate:** Aman Porwal
-- **Role:** AI/ML Engineer Intern
-- **Company:** Cynbit Technologies Private Limited
-- **Project Title:** AuditPilot: Autonomous AI Technical SEO Audit Agent
-- **Date:** October 30–31, 2026
+- **Author:** Aman Porwal ([amanporwal999@gmail.com](mailto:amanporwal999@gmail.com))
+- **Repository:** [AmanPorwal30/AuditPilot](https://github.com/AmanPorwal30/AuditPilot)
+- **License:** MIT License. Free for commercial and non-commercial use.
